@@ -1,0 +1,46 @@
+.div__1 {    
+    text-align: center; 
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body.china__page {
+    background-color: #f1f5f2;
+}
+
+body.winter__page {
+    background-color: #e3f2fd;
+}
+
+body.akva__page {
+    background-color: #1e293b;
+}
+
+body.Mario__page {
+     background: linear-gradient(135deg, #fff1f2 0%, #ffdeeb 30%, #334155 70%, #0f172a 100%);
+     background-attachment: fixed; 
+     min-height: 100vh;
+}
+
+body.elf__page {
+    background-color: #e3d5ca;
+}
+
+:hover {
+    color: gray;
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    padding: 8px;
+    width: 900px;
+    border-radius: 20px;
+}
+
+
