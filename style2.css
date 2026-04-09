@@ -1,0 +1,50 @@
+.div__a {
+    text-align: center; 
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:hover {
+    color: grey;
+}
+
+p {
+    color: black;
+    size: 20px;
+    pointer-events: none;
+}
+.photo__block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.photo__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+body {
+    background-color: #FAD6A5;
+}
+
+img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover; 
+     display: block;
+}
+
+
+
+
